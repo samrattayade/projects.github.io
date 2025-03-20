@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: rows;
+    list-style: none;
+    background-color: blanchedalmond;
+    padding: 15px;
+    
+} 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: black;
+    
+}
+
+.image{
+    width: 100%;
+}
