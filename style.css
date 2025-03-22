@@ -7,6 +7,7 @@
     position: relative;
   text-align: center;
   
+  
 }
 
 .centered {
@@ -70,7 +71,7 @@ form{
 }
 
 span::before {
-    content: "Samrat";
+    content: "HI";
     animation: animate infinite 3s;
     padding-left: 10px;
     color:#fff;
