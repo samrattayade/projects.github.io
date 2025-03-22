@@ -74,7 +74,7 @@ span::before {
     content: "HI";
     animation: animate infinite 3s;
     padding-left: 10px;
-    color:#fff;
+   
 }
 
 @keyframes animate {
