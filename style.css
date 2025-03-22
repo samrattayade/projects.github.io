@@ -24,6 +24,71 @@ a:hover {
     
 }
 
-.image{
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: rows;
+    list-style: none;
+    background-color: blanchedalmond;
+    padding: 15px;
+ 
+}
+
+form{
+    display: flex;
+   
+    align-items: flex-start;
+    flex-direction: column;
+  
+    background-color: blanchedalmond;
+    padding: 15px;
+
+    margin: 100px auto;
+    padding: 40px;
+    border: 2px solid #ccc;
+   
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+   
+}
+
+span::before {
+    content: "Samrat";
+    animation: animate infinite 3s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Samrat Tayade";
+    }
+
+    50% {
+        content: "Engineering";
+    }
+
+    75% {
+        content: "Management";
+    }
+}
+
+
+
+
+
+
+
+.footer {
     width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
 }
