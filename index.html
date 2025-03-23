@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
+<link rel="manifest" href="img/site.webmanifest">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -26,9 +26,9 @@
                     <img src="img/logo.png" alt="Logo" width="40">
                 </a></li>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="help.html">Help</a></li>
             </ul>
         </div>
     </header>
@@ -42,7 +42,7 @@
         </div>
 
 <div class="services">
-    <h2 style="text-align: center; color: brown;">Our Services</h2>
+    <h2 class="services-1" style="text-align: center; color: brown;">Our Services</h2>
 </div>
         <div class="card">
             <div>
@@ -68,25 +68,36 @@
         </div>
 
         <div class="map" style="text-align: center; ">
-            <h2 style="color: brown;">MAP</h2>
+            <h2 class="map-1" style="color: brown;">MAP</h2>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.984045769157!2d73.08322849999999!3d19.28306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bd531c70c6db%3A0xea6580577467e7c!2sSAMRAT%20TAYADE!5e0!3m2!1sen!2sin!4v1742646437242!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
 
         <div class="form" style="text-align: center; ">
-            <h2 style="color: brown;">Contact Form</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="4" required></textarea>
-                <i class="fa fa-microphone" style="font-size:24px"></i>
-                <button type="submit">Send Message</button>
-            </form>            
+            <h2 class="contact-1" style="color: brown;">Contact Form</h2>
+            <div>
+                <form action="#">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                
+                  <input type="submit" value="Submit">
+                </form>
+              </div>           
         </div>
 
         <div class="animation">
-            <h2 style="color: brown; text-align: center;" >Animation</h2>
+            <h2 class="ani-1" style="color: brown; text-align: center;" >Animation</h2>
             <div>
                 <h2>Samrat Tayade <span></span></h2>
             </div>
@@ -97,6 +108,7 @@
 
     <footer class="footer">
         <p>&copy; 2025 SAMRAT TAYADE. All rights reserved.</p>
+        <p>Home</p><p>Home</p><p>Home</p>
     </footer> 
 </body>
 </html>
